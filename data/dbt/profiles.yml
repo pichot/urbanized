@@ -1,0 +1,9 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'target/urbanized.db'
+      extensions:
+        - spatial
+      

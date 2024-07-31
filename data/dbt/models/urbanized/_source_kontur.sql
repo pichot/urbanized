@@ -1,0 +1,1 @@
+SELECT * FROM ST_Read('../_source/kontur.gpkg')
