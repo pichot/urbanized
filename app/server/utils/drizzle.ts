@@ -10,3 +10,4 @@ export function useDrizzle() {
 }
 
 export type City = typeof schema.cities.$inferSelect
+export type CityH3Pop = typeof schema.cities_h3_pop.$inferSelect
