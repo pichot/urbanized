@@ -12,6 +12,10 @@
     "db:pull": "drizzle-kit pull:sqlite"
   },
   "dependencies": {
+    "@deck.gl/core": "^9.0.26",
+    "@deck.gl/geo-layers": "^9.0.26",
+    "@deck.gl/layers": "^9.0.26",
+    "@deck.gl/mapbox": "^9.0.26",
     "@nuxt/ui": "^2.18.2",
     "@nuxthub/core": "^0.7.1",
     "drizzle-orm": "^0.32.1",

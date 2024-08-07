@@ -9,7 +9,7 @@ export const cities = sqliteTable('cities', {
 });
 
 export const cities_h3_pop = sqliteTable('cities_h3_pop', {
-  h3: text('h3'),
+  h3: text('h3').notNull(),
   efua_id: integer('efua_id').unique().notNull(),
-  population: integer('pop'),
+  population: integer('population').notNull(),
 });
